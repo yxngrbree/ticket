@@ -28,28 +28,4 @@ gcc ticket_queue.c -o ticket_queue
 # Run the program
 ./ticket_queue
 
-Example Usage
-
-Menaxhimi i Radhes se Biletave:
-1. Shto person ne radhe
-2. Hiq personin e pare
-3. Kerko nje person
-4. Shfaq biletat e shitura
-5. Shfaq radhen
-6. Dil
-
-Code Structure
-
-ticket_queue.c: Main program implementing the queue operations.
-
-Functions Used:
-
-shto(char emer[], int bileta): Adds a person to the queue.
-
-hiq(): Removes the first person from the queue.
-
-kerko(char emer[]): Searches for a person in the queue.
-
-biletaShitura(): Displays total tickets sold.
-
 shfaqRadhen(): Displays the queue.
