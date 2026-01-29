@@ -17,15 +17,19 @@ Show Queue: Display all people currently in the queue.
 How to Run
 
 # Clone the repository
+```
 git clone https://github.com/yourusername/ticket-queue.git
-
+```
 # Navigate to the project directory
+```
 cd ticket-queue
-
+```
 # Compile the program
+```
 gcc ticket_queue.c -o ticket_queue
-
+```
 # Run the program
+```
 ./ticket_queue
-
+```
 shfaqRadhen(): Displays the queue.
